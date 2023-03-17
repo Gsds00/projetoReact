@@ -10,7 +10,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
+import HelloWorld from './components/HelloWorld'
 
 function App() {
 
@@ -22,6 +22,8 @@ function App() {
       <h2>aprendendo o jsx</h2>
         <p>ola {nome}</p>
         <img src={url} alt="Minha imagem"/>
+        <HelloWorld/>
+        
 </div>
 
   /*<Container style={{ height:1000}}>
