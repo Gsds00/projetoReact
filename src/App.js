@@ -11,19 +11,20 @@ import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import HelloWorld from './components/HelloWorld'
+import SayMyName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
 
 function App() {
 
-     const nome = 'Gabriel'
+     //const nome = 'Gabriel'
 
-     const url = 'https://via.placeholder.com/150'
+     //const url = 'https://via.placeholder.com/150'
   return (
 <div className="App">
-      <h2>aprendendo o jsx</h2>
-        <p>ola {nome}</p>
-        <img src={url} alt="Minha imagem"/>
+     
         <HelloWorld/>
-        
+        <SayMyName nome="gabriel"/>
+         <Pessoa nome="gabriel" idade="22" profissao="estudante" foto="https://via.placeholder.com/150"/>
 </div>
 
   /*<Container style={{ height:1000}}>
